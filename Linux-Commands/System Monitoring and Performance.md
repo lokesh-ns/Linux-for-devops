@@ -1,0 +1,43 @@
+System Monitoring and Performance
+
+1.	How do you check system uptime?
+● uptime
+
+2.	How do you display memory usage?
+● free -h
+
+3.	How do you monitor disk I/O in real-time?
+● iostat
+
+4.	How do you check CPU usage?
+● top or htop
+
+5.	How do you check running services?
+● systemctl list-units --type=service
+
+6.	How do you enable a service to start on boot?
+● systemctl enable service_name
+
+7.	How do you check system load averages?
+● uptime or cat /proc/loadavg
+
+8.	How do you monitor network traffic in real-time?
+● iftop or nload
+
+9.	How do you list hardware information?
+● lshw
+
+10.	How do you check kernel version?
+● uname -r
+
+11.	How do you check currently mounted filesystems?
+● mount or df -h
+
+12.	How do you list active cron jobs?
+● crontab -l
+
+13.	How do you check log files?
+● tail -f /var/log/syslog or journalctl
+
+14.	How do you analyze disk usage by directories?
+● du -h --max-depth=1
